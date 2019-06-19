@@ -1,18 +1,136 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+.DS_STORE
 
-# Other files and folders
+/dist/
+/bazel-out
+/integration/bazel/bazel-*
+e2e_test.*
+node_modules
+tools/gulp-tasks/cldr/cldr-data/
+
+# Include when developing application packages.
+pubspec.lock
+.c9
+.idea/
+.devcontainer/*
+!.devcontainer/recommended-devcontainer.json
+!.devcontainer/recommended-Dockerfile
 .settings/
+.vscode/launch.json
+.vscode/settings.json
+*.swo
+modules/.settings
+modules/.vscode
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Don't check in secret files
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@akhilek
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+3,284
+49,142
+
+    13,321
+
+angular/angular
+Code
+Issues 2,495
+Pull requests 404
+Projects 3
+Security
+Insights
+angular/.gitignore
+@gkalpak gkalpak build: add recommended config files for VSCode remote development (#3… f78bda9 on May 20
+@alexeagle
+@IgorMinar
+@gkalpak
+@tbosch
+@vsavkin
+@mhevery
+@petebacondarwin
+@ocombe
+@vicb
+@kegluneq
+@scheglov
+@robwormald
+@rkirov
+@pkozlowski-opensource
+@mrmeku
+@mgechev
+@kevmoo
+@jasonaden
+@jakemac53
+@gregmagolan
+@filipesilva
+40 lines (31 sloc) 610 Bytes
+.DS_STORE
+
+/dist/
+/bazel-out
+/integration/bazel/bazel-*
+e2e_test.*
+node_modules
+tools/gulp-tasks/cldr/cldr-data/
+
+# Include when developing application packages.
+pubspec.lock
+.c9
+.idea/
+.devcontainer/*
+!.devcontainer/recommended-devcontainer.json
+!.devcontainer/recommended-Dockerfile
+.settings/
+.vscode/launch.json
+.vscode/settings.json
+*.swo
+modules/.settings
+modules/.vscode
+
+# Don't check in secret files
+*secret.js
+
+# Ignore npm/yarn debug log
+npm-debug.log
+yarn-error.log
+
+# build-analytics
+.build-analytics
+
+# rollup-test output
+/modules/rollup-test/dist/
+
+# User specific bazel settings
+.bazelrc.user
+
+    © 2019 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+
+*secret.js
+
+# Ignore npm/yarn debug log
+npm-debug.log
+yarn-error.log
+
+# build-analytics
+.build-analytics
+
+# rollup-test output
+/modules/rollup-test/dist/
+
+# User specific bazel settings
+.bazelrc.user
+
